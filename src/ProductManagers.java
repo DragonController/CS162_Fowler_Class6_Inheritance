@@ -13,7 +13,7 @@ public class ProductManagers extends Employee {
      */
     public ProductManagers(){
         super();
-        vacationDays = VACATION_DAYS_FOR_0_YEARS;
+        vacationDays = DEFAULT_VACATION_DAYS;
         stockOptions = DEFAULT_STOCK_OPTIONS;
     }
 
