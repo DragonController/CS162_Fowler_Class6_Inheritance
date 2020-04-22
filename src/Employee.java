@@ -8,12 +8,19 @@ public class Employee {
     private double baseSalary;
     private int yearsOfExperience;
     private int yearsAtCompany;
+    private final String DEFAULT_NAME = "";
+    private final double DEFAULT_BASE_SALARY = 0;
+    private final int DEFAULT_YEARS_OF_EXPERIENCE = 0;
+    private final int DEFAULT_YEARS_AT_COMPANY = 0;
 
     /**
      * Parameterless constructor
      */
     public Employee(){
-
+        name = DEFAULT_NAME;
+        baseSalary = DEFAULT_BASE_SALARY;
+        yearsOfExperience = DEFAULT_YEARS_OF_EXPERIENCE;
+        yearsAtCompany = DEFAULT_YEARS_AT_COMPANY;
     }
 
     /**
